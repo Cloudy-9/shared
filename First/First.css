@@ -3,11 +3,14 @@ body {
     margin: 0;
 }
 
-/*******************************************/
+/*
+    Header section
+        -Header logo
+        -Nav menu
+*/
 
 #header {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 15px 10% 0 10%;
     display: flex;
     background-color: #1f2937;
 }
@@ -24,7 +27,7 @@ body {
     font-weight: bold;
 }
 
-#navigation {
+#navigationlist {
     display: flex;
     width: 50%;
     gap: 8%;
@@ -32,25 +35,30 @@ body {
     align-items: center;
 }
 
-.nav {
+.navlinks {
     display: flex;
     flex: 0 1 auto;
     color: #e5e7eb;
 }
 
-/*************************************************/
+/*
+    Blue section below header
+        -"This website is awesome" text, paragraph, and sign up button
+        -Placeholder image
+*/
 
 #sec1blue {
     background-color: #1f2937;
-    padding: 70px 10% 70px 10%;
+    padding: 100px 10% 100px 10%;
     display: flex;
+    gap: 40px;
 }
 
-#awesomewebsite {
+#sec1leftbox {
     width: 50%;
 }
 
-#awesomewebsiteheader {
+#sec1header {
     margin-top: 0%;
     margin-bottom: 0%;
     color: white;
@@ -58,13 +66,13 @@ body {
     font-weight: 900;
 }
 
-#awesomewebsitep {
+#sec1paragraph {
     font-size: 18px;
     color: #e5e7eb;
     padding: .33em 0 .33em 0;
 }
 
-#signupbutton {
+#sec1button {
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
@@ -73,11 +81,11 @@ body {
     height: 28px;
     font-weight: bold;
     color: white;
-    background-color: #3882f6;
+    background-color: #2f6ed3;
     margin-top: .67em;
 }
 
-#awesomewebsiteimage {
+#sec1image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,51 +94,165 @@ body {
     margin: 10px 0 10px 0;
 }
 
-#awp {
+#sec1imageplaceholdertext {
     font-weight: 550;
     color: white;
     text-align: center;
 }
 
-/***********************************************************/
+/*
+    White section starting with "Some randome information." header
+        -"Some random information header"
+        -Blue boxes
+        -Subtext below blue boxes
+*/
 
-#sec2white {
+#sec2whiterdminfo {
     background-color: white;
     display: flex;
     flex-direction: column;
 }
 
-#rdminfo {
+#rdminfoheader {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin-top: 66px;
+    margin-bottom: 66px;
 }
 
-.bluboxes {
+.blueboxesgroup {
     display: flex;
     justify-content: center;
     gap: 5%;
     flex: 1 0 auto;
+    margin: auto 5% auto 5%;
 }
 
 .bluebox {
-    border: solid 3px #3882f6;
+    border: solid 3px #2f6ed3;
     height: 125px;
     width: 125px;
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
-#blueboxtextsection {
+#blueboxsubtextgroup {
     display: flex;
     justify-content: center;
     gap: 5%;
+    margin: 10px 5% 66px 5%;
 }
 
-.blueboxtext {
-    font-size: 18px;
+.blueboxsubtext {
+    font-size: 15px;
     color: #4a4b4e;
     flex: 0 1 auto;
     text-align: center;
     width: 131px;
 }
+
+/*
+    Quote section
+        -Quote
+        -Quote author
+*/
+
+#sec3gray {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thorquote {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 350;
+    color: #1f2937;
+    text-align: left;
+    padding: 66px 15% 66px 15%;
+}
+
+#thorquoteauthor {
+    text-align: right;
+    font-weight: 550;
+    font-size: 16px;
+    margin: auto 15% auto 15%;
+}
+
+/*
+    Call to action section -- White section with blue box in it
+        -White box w/ blue box in it
+        -Blue call to action box
+        -Call to action header & subtext
+        -Sign up button in call to action box
+*/
+
+#sec4calltoactionsection {
+    background-color: white;
+    padding: 10% 10% 10% 10%;
+}
+
+#sec4bluebox {
+    background-color: #2f6ed3;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    padding: 4% 10% 4% 10%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#calltoactionheader {
+    font-weight: 550;
+    color: white;
+    font-size: 18px;
+}
+
+#calltoactionparagraph {
+    font-size: 14px;
+    color: white;
+    letter-spacing: .03rem;
+    font-weight: 100;
+}
+
+#calltoactionbuttonflexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calltoactionsignupbutton {
+    font-size: 12px;
+    padding: 5px 20px 5px 20px;
+    background-color: #2f6ed3;
+    border: solid 2px white;
+    color: #e5e7eb;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*
+    Footer
+        -Blue footer box
+        -Copyright info text
+*/
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+}
+
+#footertext {
+    color: white;
+    font-size: 12px;
+    letter-spacing: .05rem;
+    font-weight: 100;
+}
+
+/*
+fin
+*/
