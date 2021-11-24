@@ -1,0 +1,137 @@
+body {
+    background-color: #1f2937;
+    margin: 0;
+}
+
+/*******************************************/
+
+#header {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    display: flex;
+    background-color: #1f2937;
+}
+
+#headerlogobox {
+    display: flex;
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+#headerlogocontent {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+#navigation {
+    display: flex;
+    width: 50%;
+    gap: 8%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex: 0 1 auto;
+    color: #e5e7eb;
+}
+
+/*************************************************/
+
+#sec1blue {
+    background-color: #1f2937;
+    padding: 70px 10% 70px 10%;
+    display: flex;
+}
+
+#awesomewebsite {
+    width: 50%;
+}
+
+#awesomewebsiteheader {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#awesomewebsitep {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: .33em 0 .33em 0;
+}
+
+#signupbutton {
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    width: 95px;
+    height: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    margin-top: .67em;
+}
+
+#awesomewebsiteimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #696875;
+    width: 50%;
+    margin: 10px 0 10px 0;
+}
+
+#awp {
+    font-weight: 550;
+    color: white;
+    text-align: center;
+}
+
+/***********************************************************/
+
+#sec2white {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#rdminfo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.bluboxes {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex: 1 0 auto;
+}
+
+.bluebox {
+    border: solid 3px #3882f6;
+    height: 125px;
+    width: 125px;
+    border-radius: 15px;
+}
+
+#blueboxtextsection {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.blueboxtext {
+    font-size: 18px;
+    color: #4a4b4e;
+    flex: 0 1 auto;
+    text-align: center;
+    width: 131px;
+}
